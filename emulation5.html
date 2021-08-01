@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="mystyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body bgcolor="#000000" background="panzer%20background.jpg" link="#FFFFFF" vlink="#FFFFFF">
+<div align="center">
+  <p>&nbsp;</p>
+  <table width="56%" border="1" cellpadding="10" cellspacing="10" bordercolor="#FFFFFF" bgcolor="#000000">
+    <tr> 
+      <td height="214"> <div align="center"><img src="pdemulationbanner.jpg" width="674" height="321"></div></td>
+    </tr>
+    <tr> 
+      <td height="2980" valign="top"> 
+        <div align="center"> 
+          <p align="left"><font color="#FFFFFF" size="6"><strong>Mednafen Emulator 
+            Setup:</strong></font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5"><a href="https://mednafen.github.io/" target="_blank">https://mednafen.github.io/</a></font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">Once you have Mednafen 
+            installed you need to go into your installation folder, right click 
+            on the mednafen.ctg file and open it up in a program like notepad 
+            and make some changes. Use Ctr+f within the document to search for 
+            what you need as shown below.</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">- Within the mednafen.cfg, 
+            file and using notepad or notepad++ to edit it, make these changes 
+            and save:</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="6"><strong>Video Settings</strong></font><font color="#FFFFFF" size="5">:</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">-Hit ctrl+f, </font></p>
+          <p align="left"><font color="#FFFFFF" size="5">search for: ss.stretch</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">change ss.stretch aspect_mult2 
+            to ss.stretch aspect</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">-Hit ctrl+f</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">search for: ss.correct_aspect</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">0 is native</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">1 will squash or stretch 
+            to 4:3</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">-Hit ctrl+f </font></p>
+          <p align="left"><font color="#FFFFFF" size="5">search for: ss.videoip</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">0 will give you sharp 
+            pixels</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">1 will apply bilinear 
+            filtering (a blur)</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="6"><strong>Other Settings</strong></font><font color="#FFFFFF" size="5">:</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">-Hit ctrl+f </font></p>
+          <p align="left"><font color="#FFFFFF" size="5">search for: video.frameskip</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">set this to 0</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">so the emulator renders 
+            all frames</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">-Hit ctrl+f </font></p>
+          <p align="left"><font color="#FFFFFF" size="5">search for: ss.scsp.resamp_quality</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">sound quality for the 
+            scsp</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">0 is lowest</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">10 is highest</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">default is 4</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">-Hit ctrl+f </font></p>
+          <p align="left"><font color="#FFFFFF" size="5">search for: ss.midsync</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">setting to 1 can reduce 
+            input lag</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">but increases CPU load</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">-Hit ctrl+f </font></p>
+          <p align="left"><font color="#FFFFFF" size="5">search for: cd.image_memcache</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">if you have a good bit 
+            of RAM</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">setting this to 1 will 
+            load the entire game into your RAM</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="6"><strong>Basic Mednafen 
+            Emulator Settings</strong></font><font color="#FFFFFF" size="5">:</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">Alt + Shift + 1 -&gt; 
+            Set controls for Player 1</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">Alt + Shift + 2 -&gt; 
+            Set controls for Player 2</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">Alt + Enter -&gt; Full 
+            Screen</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">0 - Save Screen Snapshot</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">F5 - Save Game State</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">F7 - Load Game State</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">F11 - Toggle FPS Text</font></p>
+          <p align="left"><font color="#FFFFFF" size="5">ctrl+shift+esc (only 
+            use this if you have to force close Mednafen)</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="6"><strong>Loading a game</strong></font><font color="#FFFFFF" size="5">:</font></p>
+          <p align="left">&nbsp;</p>
+          <p align="left"><font color="#FFFFFF" size="5">To start a game drag 
+            an .Cue file of your chosen Saturn game over the mednafen.exe file 
+            found in your main directory folder.</font></p>
+          <p align="left"><font color="#FFFFFF" size="5"><br>
+            </font></p>
+          <p align="left"><font color="#FFFFFF" size="5"> </font></p>
+          </div></td>
+    </tr>
+  </table>
+  <p><font color="#000000" size="6"><font color="#FFFFFF"><strong><a href="emulation.html">Table 
+    of Contents</a></strong></font></font></p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp; </p>
+</div>
+</body>
+</html>
