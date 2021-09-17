@@ -35,7 +35,7 @@
             between 4 different Saturn emulators or cores. Go to main menu and 
             select download core and select the Sega Saturn Kronos core.</font></p>
           <p align="left"><font color="#FFFFFF" size="5"><strong>Note</strong>: 
-            the only Saturn core that works 100% in Retroarch as of now is the 
+            the only Saturn core that works 100% in RetroArch as of now is the 
             Kronos Core. The other cores like Yabause might have slight issues 
             that impair their use. But if you want to use Yabause or Mednafen 
             as standalone emulators, separate from RetroArch, they work fairly 
@@ -44,12 +44,14 @@
           <p align="left"><font color="#FFFFFF" size="5"><strong>Note</strong>: 
             (<strong>This is very important</strong>) For a game with multiple 
             discs like Panzer Dragoon Saga and all single games as well, make 
-            sure you test out each individual game file in RetroArch Kronos, by 
+            sure you test out each individual game file in Retroarch Kronos, by 
             itself, to see if it works properly before playing. Concerning a game 
             with multiple discs, If one of the discs/iso are corrupted when you 
             go to switch discs, the disc won't load and you will just be stuck 
             in the Saturn internal menu. As long as each individual disc works 
-            you will be fine.</font></p>
+            you will be fine. RetroArch Kronos will load any .cue file of a game 
+            but it has to have the .bin file to go along with it or the game won't 
+            load at all.</font></p>
           <p align="left">&nbsp;</p>
           <p align="left"><font color="#FFFFFF" size="6">Setup for multiple discs:</font></p>
           <p align="left">&nbsp;</p>
@@ -58,16 +60,17 @@
             individual game iso works, you need to set up your game files for 
             multiple discs. If you have no multiple disc games or don't intent 
             to play any, you can skip this step. Assuming you do, the instructions 
-            are as follows: Retroarch will scan and play any .cue file of a specific 
-            game. For a multi disc games like Panzer Dragoon Saga you need to 
-            go through an additional step. You need to set up a .m3u text document 
+            are as follows: RetroArch will scan and play any .cue file of a specific 
+            game. Again just make sure to have the .bin file to go along with 
+            it. For a multi disc games like Panzer Dragoon Saga you need to go 
+            through an additional step. You need to set up a .m3u text document 
             containing all of your game files. Each game multi disc or not, should 
             have its own separate folder. So concerning a multiple disc game like 
-            Panzer Dragoon Saga, make a folder and put all 4 iso .cue files into 
-            it. Once everything is in one folder and organized we need to make 
-            the m3u file. So, open up notebook or notebook++ and copy the name 
-            of each of your .cue game files exactly, for each disc as shown bellow 
-            and in the visual guide.</font></p>
+            Panzer Dragoon Saga, make a folder and put all 4 iso .cue and all 
+            4 .bin files into it. Once everything is in one folder and organized 
+            we need to make the m3u file. So, open up notebook or notebook++ and 
+            copy the name of each of your .cue game files exactly, for each disc 
+            as shown bellow and in the visual guide.</font></p>
           <p align="left">&nbsp;</p>
           <p align="left"><font color="#FFFFFF" size="5"><strong>Visual Guide</strong></font></p>
           <p align="left"><font color="#FFFFFF" size="5"><a href="https://docs.retroachievements.org/Multi-Disc-Games-Tutorial/" target="_blank">https://docs.retroachievements.org/Multi-Disc-Games-Tutorial/</a></font></p>
@@ -92,7 +95,7 @@
             'View' and a checkbox reading 'File name extensions'.</font></p>
           <p align="left"><font color="#FFFFFF" size="5">Once you create this 
             file put it in the same directory as your game files. Then when in 
-            RetroArch use this file to load your game. Go to main menu/load content 
+            Retroarch use this file to load your game. Go to main menu/load content 
             and select your game folder location and load that m3u file. Your 
             game should boot up and you can select which core you want to use. 
             I suggest the Kronos core as you can upscale the graphics.</font></p>
@@ -115,7 +118,8 @@
             it to start the disc up.</font></p>
           <p align="left"><font color="#FFFFFF" size="5">For all other single 
             disc games you can just go to main menu/load content and just load 
-            the .cue game file as is.</font></p>
+            the .cue game file as is. Just make sure the .bin file is in the same 
+            folder as the .cue game file.</font></p>
           <p align="left">&nbsp;</p>
           <p align="left"><font color="#FFFFFF" size="6"><strong>Kronos Game Settings:</strong></font></p>
           <p align="left">&nbsp;</p>
@@ -139,8 +143,7 @@
             press F1 to go into the menu and select &quot;Save State&quot;. <strong>Note</strong>: 
             this feature was recently fixed, so be sure before starting the game 
             you &quot;update installed cores&quot; with the &quot;Online Updater&quot; 
-            found in the main Retroarch menu.</font></p>
-          <p align="left">&nbsp;</p>
+            found in the main RetroArch menu.</font></p>
           <p align="left"><font color="#FFFFFF" size="5"> </font></p>
           </div></td>
     </tr>
